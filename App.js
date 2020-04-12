@@ -9,14 +9,14 @@ import {
   TouchableOpacity,
 } from 'react-native';
 
+const EMPATE = "Empate!"
+const DERROTA = "Você perdeu!"
+const VITORIA = "Você ganhou!"
+
 const pedra = require('./assets/pedra.jpg')
 const papel = require('./assets/papel.jpg')
 const tesoura = require('./assets/tesoura.jpg')
 const versus = require('./assets/x.jpg')
-
-const EMPATE = "Empate!"
-const DERROTA = "Você perdeu!"
-const VITORIA = "Você ganhou!"
 
 export default function App() {
 
